@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *
+ *  Mike Mambwe Software Engineer.
  * get_bit - returns the value of a bit at a given
  * index.
  * @nlong: unsigned long int input.
@@ -26,4 +26,5 @@ int get_bit(unsigned long int nlong, unsigned int indexOfBit)
 
 	return (-1);
 }
+
 
