@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- * Mike Mambwe || software engineer.
  * read_textfile - reads a text file and prints the letters
  * @filename: filename.
  * @letters: numbers of letters printed.
