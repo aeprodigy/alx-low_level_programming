@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * MIKE MAMBWE || SOFTWARE ENGINEER
+ * Mike Mambwe || software engineer.
  * read_textfile - reads a text file and prints the letters
- * @filename: name of the filename.
- * @letters: numbers of letters to be printed by the file.
+ * @filename: filename.
+ * @letters: numbers of letters printed.
  *
- * Return: numbers of letters printed. It fails, returns 0 to the system.
+ * Return: numbers of letters printed. It fails, returns 0 of the system.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -21,6 +21,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	if (fd == -1)
 		return (0);
+
 	buf = malloc(sizeof(char) * (letters));
 	if (!buf)
 		return (0);
