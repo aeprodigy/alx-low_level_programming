@@ -4,7 +4,7 @@
  * append_text_to_file - appends text at the end of a file
  * @filename: filename.
  * @text_content: added content.
- * mike mambwe software engineer.
+ * mike mambwe
  * Return: 1 if the file exists. -1 if the fails does not exist
  * or if it fails.
  */
