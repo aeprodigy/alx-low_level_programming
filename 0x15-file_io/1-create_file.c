@@ -2,22 +2,22 @@
 
 /**
  * create_file - creates a file
- * @filename: filename.
+ * @filenames: filename.
  * @text_content: content writed in the file.
  *
- * mike mambwe.
+ * mike mambwe software engineer.
  * Return: 1 if it success. -1 if it fails.
  */
-int create_file(const char *filename, char *text_content)
+int create_file(const char *filenames, char *text_content)
 {
 	int fd;
 	int nletterz;
 	int rwr;
 
-	if (!filename)
+	if (!filenames)
 		return (-1);
 
-	fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
+	fd = open(filenames, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 
 	if (fd == -1)
 		return (-1);
